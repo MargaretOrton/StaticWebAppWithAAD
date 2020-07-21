@@ -2,7 +2,7 @@
   "routes": [
     {
       "route": "/users.html",
-      "allowedRoles": ["authenticated"]
+      "allowedRoles": ["randomRole"]
     },    
     {
       "route": "/login",
