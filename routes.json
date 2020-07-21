@@ -1,14 +1,9 @@
 {
   "routes": [
     {
-      "route": "/user.html",
+      "route": "/users.html",
       "allowedRoles": ["authenticated"]
     },
-    {
-      "route": "/admin/*",
-      "allowedRoles": ["administrator"]
-    },
-
     {
       "route": "/login",
       "serve": "/.auth/login/github"
