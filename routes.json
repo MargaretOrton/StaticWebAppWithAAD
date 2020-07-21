@@ -1,7 +1,7 @@
 {
   "routes": [
     {
-      "route": "/*.html",
+      "route": "/users.html",
       "allowedRoles": ["randomRole"]
     },    
     {
