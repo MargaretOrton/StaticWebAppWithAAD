@@ -9,6 +9,10 @@
       "serve": "/.auth/login/aad"
     },
     {
+      "route": "/.auth/login/github",
+      "statusCode": "404"
+    },
+    {
       "route": "/logout",
       "serve": "/.auth/logout"
     }
