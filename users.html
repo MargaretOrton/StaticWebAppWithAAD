@@ -11,7 +11,17 @@
 <body>
   <main>
     <h1>Authenticated Users Only</h1>
+    <a href="#" onClick="getUserInfo();return false;"></a>
   </main>
 </body>
+<script>
+  async function getUserInfo() {
+  const response = await fetch("/.auth/me");
+  const payload = await response.json();
+  const { clientPrincipal } = payload;
+  return clientPrincipal;
+}
 
+console.log(getUserInfo());
+  </script>
 </html>
